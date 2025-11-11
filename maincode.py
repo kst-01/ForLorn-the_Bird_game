@@ -28,7 +28,7 @@ bird_movement = 0
 jump_strength = -8
 
 # Load custom bird image
-bird_image = pygame.image.load(r"C:\Users\KRISHNA PC\Downloads\rjr.png")  # Replace with your actual path
+bird_image = pygame.image.load(r"your image path, eg - C:\Download\your_image.png")  # Replace with your actual path
 bird_image = pygame.transform.scale(bird_image, (40, 40))  # Resize as needed
 
 # Pipe settings
